@@ -119,7 +119,7 @@ Player.prototype.handleInput = function(keyPress) {
   // Vertical
   if (this.y < 60) {
     setTimeout(() => {
-      swal("Thanks for $@#!^");
+      swal("Game is completed");
       this.x = 200;
       this.y = 400;
     }, 100);
