@@ -68,18 +68,18 @@ enemyPosition.forEach(function(posY) {
 
 Player.prototype.update = function(dt) {
   // Prevent player from moving beyond canvas wall boundaries
-  // if (this.y > 420) {
-  //      this.y = 405;
-  //
-  //  }
-  //
-  //  if (this.x > 400) {
-  //      this.x = 400;
-  //  }
-  //
-  //  if (this.x < 0) {
-  //      this.x = 0;
-  //  }
+  if (this.y > 420) {
+       this.y = 405;
+
+   }
+
+   if (this.x > 400) {
+       this.x = 400;
+   }
+
+   if (this.x < 0) {
+       this.x = 0;
+   }
 
   // Check for player reaching top of canvas and winning the game
 
