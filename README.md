@@ -1,4 +1,6 @@
-# Classic Arcade Game Clone Project
+# Classic Arcade Game Clone Project:
+=======================================
+The main objective of this game is get player from the grass over the road and into the water. The challenge is to avoid the bugs that travel the road. While developing logic for the player to reach the water with out touch bugs, I enjoyed a lot.
 
 ## Table of Contents
 
