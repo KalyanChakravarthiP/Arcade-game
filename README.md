@@ -1,10 +1,8 @@
 # Arcade Frogger Game
-_______________________
 The aim of this project is to implement the code to make the player to touch the blue area without touching the bugs ( Enemies ) in his path. If he completed his task successfully, Do an activity to show that.
 
 
 ## I built this project by worked on the following steps.
-_________________________
 
 + Downloaded the starter code from the link (https://github.com/udacity/frontend-nanodegree-arcade-game) which was provided by udacity.
 + ened the project in browser by using **web-server from chrome** ( **200 OK** ) to analyze the accebility of the project. We can run by opening index.html in browser also but it doesn't show the necessary rules such as accebility and performance.
