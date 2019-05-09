@@ -1,5 +1,5 @@
 # Arcade Frogger Game
-_The aim of this project is to implement the code to make the player to touch the blue area without touching the bugs ( Enemies ) in his path. If he completed his task successfully, Do an activity to show that.
+_The aim of this project is to implement the code to make the player to touch the blue area without touching the bugs ( Enemies ) in his path. If he completed his task successfully, Do an activity to show that._
 
 
 ## I built this project by worked on the following steps.
