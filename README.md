@@ -7,7 +7,7 @@ The aim of this project is to implement the code to make the player to touch the
 _________________________
 
 + Downloaded the starter code from the link (https://github.com/udacity/frontend-nanodegree-arcade-game) which was provided by udacity.
-+ ened the project in browser by using web-server from chrome ( **200 OK** ) to analyze the accebility of the project. We can run by opening index.html in browser also but it doesn't show the necessary rules such as accebility and performance.
++ ened the project in browser by using **web-server from chrome** ( **200 OK** ) to analyze the accebility of the project. We can run by opening index.html in browser also but it doesn't show the necessary rules such as accebility and performance.
 +After run this project, I came to know that I need to resolve few error. I resolved all the errors respectevely.
 + Calculated the canvas **width** and **height**, based on that I calculated the dimensions of each block of canvas by using x and y cordinates.
 + Initially I came to know that there are two activities in this game.
@@ -20,7 +20,7 @@ _________________________
 + I created the `Player` class by observing the Enemy class which was existed in given code.
 + Set the position of player (200,400) on canvas by creating an instance to the Player class named `player`.
 + Took an array named `allEnemies` and placed all the three enemy positions.
-+ Similarly implemented Enemy activity by developing follwoing two functions
++ Similarly implemented **Enemy** activity by developing follwoing two functions
   - `render()` and
   - `update()`
 + After that I wrote code to move the enemy with random speed on canvas by using `random()` function.
