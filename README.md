@@ -1,35 +1,36 @@
-# Classic Arcade Game Clone Project:
-==============================================
+# Arcade Frogger Game
+_______________________
+The aim of this project is to implement the code to make the player to touch the blue area without touching the bugs ( Enemies ) in his path. If he completed his task successfully, Do an activity to show that.
 
 
-The main objective of this game is get player from the grass over the road and into the water. The challenge is to avoid the bugs that travel the road. While developing logic for the player to reach the water with out touch bugs, I enjoyed a lot.
+## I built this project by worked on the following steps.
+_________________________
 
-## Table of Contents
-
-- [Instructions](#instructions)
-- [Contributing](#contributing)
-
-## Instructions
-
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
-
-Download Starter code from (https://github.com/udacity/frontend-nanodegree-arcade-game) and modify it for game completion.
-
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
-
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
-
-
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-1.Download the starter code from (https://github.com/udacity/frontend-nanodegree-arcade-game).
-2.Open index.html file in browser either server or from project folder.
-3.Resolve errors in app.js to get canvas screen on browser.
-4.Set positions of player and Enemy in canvas.
-5.Move enemy with random speed on canvas.
-6.Move player by using handleInput() function through getting keys from event listener.
-7.Write collision code when player touches the enemy and sets player position when collision occurs.
-8.Write code when player reaches the water and sets player position to original position.
++ Downloaded the starter code from the link (https://github.com/udacity/frontend-nanodegree-arcade-game) which was provided by udacity.
++ ened the project in browser by using web-server from chrome ( **200 OK** ) to analyze the accebility of the project. We can run by opening index.html in browser also but it doesn't show the necessary rules such as accebility and performance.
++After run this project, I came to know that I need to resolve few error. I resolved all the errors respectevely.
++ Calculated the canvas **width** and **height**, based on that I calculated the dimensions of each block of canvas by using x and y cordinates.
++ Initially I came to know that there are two activities in this game.
+  - `Player` and
+  - `Enemy`.
++ I thought I need to work on the following **Player** functons.
+  - `render()`       : For Placing the player on canvas with calculated dimensions,
+  - `update()`       : Updating the Player position based on the systems time and
+  - `handleInput()`  : Changing the Player position based on the keys pressed by the user.
++ I created the `Player` class by observing the Enemy class which was existed in given code.
++ Set the position of player (200,400) on canvas by creating an instance to the Player class named `player`.
++ Took an array named `allEnemies` and placed all the three enemy positions.
++ Similarly implemented Enemy activity by developing follwoing two functions
+  - `render()` and
+  - `update()`
++ After that I wrote code to move the enemy with random speed on canvas by using `random()` function.
++ Move player by using `handleInput()` function through getting keys from event listener. The keys mentioned as
+  - `left`    : Moving the player towards left side on the X-Axis. This key doesn't work if he reaches the left most position on canvas.    
+  - `right`   : Moving the player towords right side on the X-Axis. It doesn't work if the hero reaches the right most position on canvas.
+  - `up`      : SImilary up ward direction
+  - `bottom`. : Same as above for bottom direction.
++ These positions will work based on the arrows keys on keyboard.
++ Wrote collision code if player touches the enemy i.e.. collision occurs then sets player position to initially mentioned dimensions (200,400). 
++ Similarly the above step will work if the player, if he touches the water ( blue colored area on the top of the canvas).
++ Implemented code for enemy also. If the enemy raches right most position on canvas, He will starts from the starting position (From left side). 
++ Added meta tags for implememting viewport for different resolutions.
