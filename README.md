@@ -34,7 +34,7 @@ The aim of this project is to implement the code to make the player to touch the
 + Added meta tags for implememting viewport for different resolutions.
 + If the player reaches the blue area, I show it in a congratulatory message by using sweet alert.
 
-## Steps to run this project
+## Steps to play this game
 + Open this project by opening the root file( `index.html` ) with web browser. As cited in second point of above section, we can run this project by using any server ( **web server for chrome** or **python server** )
 + The Enemies starts their activity soon after loading the project in any browser.
 + Use arrow keys on the keyboard to change the enemy position. This functionality works based on the key directions on the keyboard.
